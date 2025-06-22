@@ -13896,3 +13896,4 @@ FB-Super-Boost-0-19
 FB-Super-Boost-0-20
 FB-Power-300-1
 FB-Power-300-2
+FB-Power-300-3
