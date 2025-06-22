@@ -7875,3 +7875,4 @@ FB-Super-Boost-0-18
 FB-Super-Boost-0-19
 FB-Super-Boost-0-20
 FB-Super-Boost-300-1
+FB-Super-Boost-300-2
