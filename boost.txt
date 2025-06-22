@@ -49,3 +49,4 @@ Fenerbahce-Boost-48-Sat Apr 18 16:18:02 UTC 2026
 Fenerbahce-Boost-49-Sat Apr 18 16:18:02 UTC 2026
 Fenerbahce-Boost-50-Sat Apr 18 16:18:02 UTC 2026
 FB-Boost-300-1
+FB-Boost-300-2
