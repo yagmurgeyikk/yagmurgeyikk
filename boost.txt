@@ -1865,3 +1865,4 @@ FB-Super-Boost-300-8
 FB-Super-Boost-300-9
 FB-Super-Boost-300-10
 FB-Super-Boost-300-11
+FB-Super-Boost-300-12
