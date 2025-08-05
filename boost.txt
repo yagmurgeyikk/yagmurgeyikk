@@ -8765,3 +8765,4 @@ FB-Super-Boost-256-8
 FB-Super-Boost-256-9
 FB-Super-Boost-256-10
 FB-Super-Boost-256-11
+FB-Super-Boost-256-12
