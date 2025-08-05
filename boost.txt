@@ -2741,3 +2741,4 @@ FB-Super-Boost-256-4
 FB-Super-Boost-256-5
 FB-Super-Boost-256-6
 FB-Super-Boost-256-7
+FB-Super-Boost-256-8
