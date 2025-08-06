@@ -2759,3 +2759,4 @@ FB-Super-Boost-255-2
 FB-Super-Boost-255-3
 FB-Super-Boost-255-4
 FB-Super-Boost-255-5
+FB-Super-Boost-255-6
