@@ -2859,3 +2859,4 @@ FB-Super-Boost-250-2
 FB-Super-Boost-250-3
 FB-Super-Boost-250-4
 FB-Super-Boost-250-5
+FB-Super-Boost-250-6
