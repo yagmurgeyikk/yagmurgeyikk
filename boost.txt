@@ -3861,3 +3861,4 @@ FB-Super-Boost-200-4
 FB-Super-Boost-200-5
 FB-Super-Boost-200-6
 FB-Super-Boost-200-7
+FB-Super-Boost-200-8
