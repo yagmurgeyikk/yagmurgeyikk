@@ -10281,3 +10281,4 @@ FB-Super-Boost-180-4
 FB-Super-Boost-180-5
 FB-Super-Boost-180-6
 FB-Super-Boost-180-7
+FB-Super-Boost-180-8
