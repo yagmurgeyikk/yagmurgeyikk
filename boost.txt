@@ -5261,3 +5261,4 @@ FB-Super-Boost-130-4
 FB-Super-Boost-130-5
 FB-Super-Boost-130-6
 FB-Super-Boost-130-7
+FB-Super-Boost-130-8
