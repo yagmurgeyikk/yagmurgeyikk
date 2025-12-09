@@ -11280,3 +11280,4 @@ FB-Super-Boost-130-3
 FB-Super-Boost-130-4
 FB-Super-Boost-130-5
 FB-Super-Boost-130-6
+FB-Super-Boost-130-7
