@@ -11319,3 +11319,4 @@ FB-Super-Boost-128-2
 FB-Super-Boost-128-3
 FB-Super-Boost-128-4
 FB-Super-Boost-128-5
+FB-Super-Boost-128-6
