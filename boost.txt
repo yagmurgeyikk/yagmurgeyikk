@@ -11685,3 +11685,4 @@ FB-Super-Boost-110-8
 FB-Super-Boost-110-9
 FB-Super-Boost-110-10
 FB-Super-Boost-110-11
+FB-Super-Boost-110-12
