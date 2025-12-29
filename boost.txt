@@ -5661,3 +5661,4 @@ FB-Super-Boost-110-4
 FB-Super-Boost-110-5
 FB-Super-Boost-110-6
 FB-Super-Boost-110-7
+FB-Super-Boost-110-8
