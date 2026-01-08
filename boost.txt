@@ -11880,3 +11880,4 @@ FB-Super-Boost-100-3
 FB-Super-Boost-100-4
 FB-Super-Boost-100-5
 FB-Super-Boost-100-6
+FB-Super-Boost-100-7
