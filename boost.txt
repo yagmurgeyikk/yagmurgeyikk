@@ -12280,3 +12280,4 @@ FB-Super-Boost-80-3
 FB-Super-Boost-80-4
 FB-Super-Boost-80-5
 FB-Super-Boost-80-6
+FB-Super-Boost-80-7
