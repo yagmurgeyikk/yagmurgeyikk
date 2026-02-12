@@ -12580,3 +12580,4 @@ FB-Super-Boost-65-3
 FB-Super-Boost-65-4
 FB-Super-Boost-65-5
 FB-Super-Boost-65-6
+FB-Super-Boost-65-7
