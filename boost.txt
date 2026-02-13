@@ -12601,3 +12601,4 @@ FB-Super-Boost-64-4
 FB-Super-Boost-64-5
 FB-Super-Boost-64-6
 FB-Super-Boost-64-7
+FB-Super-Boost-64-8
