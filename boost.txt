@@ -6673,3 +6673,4 @@ FB-Super-Boost-60-16
 FB-Super-Boost-60-17
 FB-Super-Boost-60-18
 FB-Super-Boost-60-19
+FB-Super-Boost-60-20
