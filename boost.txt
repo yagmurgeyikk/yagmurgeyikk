@@ -6864,3 +6864,4 @@ FB-Super-Boost-50-7
 FB-Super-Boost-50-8
 FB-Super-Boost-50-9
 FB-Super-Boost-50-10
+FB-Super-Boost-50-11
