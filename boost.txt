@@ -7541,3 +7541,4 @@ FB-Super-Boost-16-4
 FB-Super-Boost-16-5
 FB-Super-Boost-16-6
 FB-Super-Boost-16-7
+FB-Super-Boost-16-8
