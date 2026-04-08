@@ -7661,3 +7661,4 @@ FB-Super-Boost-10-4
 FB-Super-Boost-10-5
 FB-Super-Boost-10-6
 FB-Super-Boost-10-7
+FB-Super-Boost-10-8
