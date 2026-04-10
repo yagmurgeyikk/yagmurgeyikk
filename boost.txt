@@ -13725,3 +13725,4 @@ FB-Super-Boost-8-8
 FB-Super-Boost-8-9
 FB-Super-Boost-8-10
 FB-Super-Boost-8-11
+FB-Super-Boost-8-12
