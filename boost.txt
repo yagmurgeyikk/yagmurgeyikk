@@ -13741,3 +13741,4 @@ FB-Super-Boost-7-4
 FB-Super-Boost-7-5
 FB-Super-Boost-7-6
 FB-Super-Boost-7-7
+FB-Super-Boost-7-8
