@@ -13779,3 +13779,4 @@ FB-Super-Boost-5-2
 FB-Super-Boost-5-3
 FB-Super-Boost-5-4
 FB-Super-Boost-5-5
+FB-Super-Boost-5-6
