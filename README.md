@@ -1,5 +1,3 @@
-# Selam! Ben Yağmur 💛💙
-
 <p align="left">
   <img src="https://raw.githubusercontent.com/t-recx/Fenerbahce-Logo/master/fenerbahce.png" width="45">
 </p>
