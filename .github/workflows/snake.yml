@@ -12,22 +12,26 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # 1. Adım: Repoyu kontrol et
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      # 2. Adım: HİLE KISMI - Otomatik commit atarak sarı kutuları çoğalt
-      - name: Boost Contributions
+      # HİLE: Son 300 günün her birine 3'er tane sarı commit atar
+      - name: Extreme Yellow Boost
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          for i in {1..50}; do
-            echo "Fenerbahce-Boost-$i-$(date)" >> boost.txt
-            git add boost.txt
-            git commit -m "Sarı Kanarya Katkısı $i"
+          for d in {300..0}; do
+            for i in {1..3}; do
+              # Geçmiş tarihlere commit atma büyüsü
+              export DATES=$(date -d "-$d days" +%Y-%m-%dT%H:%M:%S)
+              echo "FB-Boost-$d-$i" >> boost.txt
+              git add boost.txt
+              git commit --date "$DATES" -m "Sarı Kanarya Katkısı"
+            done
           done
-          git push origin main
+          git push origin main --force
 
-      # 3. Adım: Yılanı oluştur
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3
         with:
@@ -35,7 +39,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#FED500&color_dots=#00235D,#FED500,#FFD700,#FFCC00,#E6B800
             
-      # 4. Adım: Çıktıyı paylaş
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
