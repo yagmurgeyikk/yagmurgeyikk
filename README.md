@@ -13,5 +13,5 @@
 
 ---
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=wave&color=00235D&height=100&section=footer&text=Fenerbahçe&fontSize=40&fontColor=FED500" />
+  <img src="https://raw.githubusercontent.com/yagmurgeyikk/yagmurgeyikk/output/github-contribution-grid-snake.svg" width="100%">
 </p>
