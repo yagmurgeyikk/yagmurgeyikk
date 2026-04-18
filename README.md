@@ -1,8 +1,6 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/t-recx/Fenerbahce-Logo/master/fenerbahce.png" width="45">
+  <img src="https://upload.wikimedia.org/wikipedia/tr/f/ff/Fenerbah%C3%A7e_SK.png" width="60">
 </p>
-
-### Sarı Lacivert Katkılarım
 ![Snake animation](https://github.com/yagmurgeyikk/yagmurgeyikk/blob/output/github-contribution-grid-snake.svg)
 
 ---
