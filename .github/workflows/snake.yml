@@ -13,23 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      # HİLE: 300 günlük geçmişin her gününe 20 tane commit basıyoruz (Sarı garantili)
+      # HİLE KISMI: Son 300 günün her birine senin adına 5'er commit atar.
+      # Bu sayede yılan grafiği boydan boya sapsarı dolar.
       - name: God Mode Yellow Boost
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "yagmurgeyikk"
           for d in {300..0}; do
             export DATES=$(date -d "-$d days" +%Y-%m-%dT%H:%M:%S)
-            for i in {1..20}; do
-              echo "FB-Super-Boost-$d-$i" >> boost.txt
+            for i in {1..5}; do
+              echo "FB-Power-$d-$i" >> boost.txt
               git add boost.txt
               git commit --date "$DATES" -m "Sarı Kanarya Şov"
             done
           done
           git push origin main --force
 
-      # YILAN: Tabloyu geniş tutması ve renkleri oturtması için
+      # YILAN OLUŞTURUCU: Sarı-Lacivert palet ayarı
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3
         with:
