@@ -1,7 +1,3 @@
-<p align="left">
-  <img src="https://img.shields.io/badge/FENERBAHÇE-00235D?style=for-the-badge&logo=soccer&logoColor=FED500">
-</p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/yagmurgeyikk/yagmurgeyikk/output/github-contribution-grid-snake.svg" width="100%">
 </p>
