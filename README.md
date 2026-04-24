@@ -10,6 +10,5 @@
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/1907-FENERBAHÇE-FED500?style=for-the-badge&labelColor=00235D">
+
 </p>
