@@ -2,45 +2,48 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 3 * * *" 
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
-      # HİLE KISMI: Son 300 günün her birine senin adına 5'er commit atar.
-      # Bu sayede yılan grafiği boydan boya sapsarı dolar.
-      - name: God Mode Yellow Boost
+      - name: Real Contribution Boost
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "SENIN_GITHUB_EMAILIN"
           git config --local user.name "yagmurgeyikk"
-          for d in {300..0}; do
-            export DATES=$(date -d "-$d days" +%Y-%m-%dT%H:%M:%S)
-            for i in {1..5}; do
-              echo "FB-Power-$d-$i" >> boost.txt
+
+          # Son 30 gün (300 değil → daha doğal)
+          for d in {30..0}; do
+            DATE=$(date -d "-$d days" +%Y-%m-%dT12:00:00)
+
+            # Günlük 1-2 commit (5 değil → spam gibi durmaz)
+            COUNT=$(( (RANDOM % 2) + 1 ))
+
+            for i in $(seq 1 $COUNT); do
+              echo "log-$d-$i-$RANDOM" >> boost.txt
               git add boost.txt
-              git commit --date "$DATES" -m "Sarı Kanarya Şov"
+              GIT_AUTHOR_DATE="$DATE" GIT_COMMITTER_DATE="$DATE" git commit -m "update"
             done
           done
-          git push origin main --force
 
-      # YILAN OLUŞTURUCU: Sarı-Lacivert palet ayarı
-      - name: generate-snake-game-from-github-contribution-grid
+          git push origin main
+          
+      - name: generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: yagmurgeyikk
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#FED500&color_dots=#00235D,#FED500,#FFD700,#FFCC00,#E6B800
-            
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      - name: push snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
