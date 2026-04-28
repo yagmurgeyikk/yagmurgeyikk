@@ -17,14 +17,14 @@ jobs:
 
       - name: Real Contribution Boost
         run: |
+          # BURAYI KENDİ MAİLİNLE DEĞİŞTİRMEYİ UNUTMA!
           git config --local user.email "SENIN_GITHUB_EMAILIN"
           git config --local user.name "yagmurgeyikk"
 
-          # Son 30 gün (300 değil → daha doğal)
           for d in {30..0}; do
             DATE=$(date -d "-$d days" +%Y-%m-%dT12:00:00)
-
-            # Günlük 1-2 commit (5 değil → spam gibi durmaz)
+            
+            # 1 ile 2 arası commit (Sarı olması için 1 tane bile yeterli olacak)
             COUNT=$(( (RANDOM % 2) + 1 ))
 
             for i in $(seq 1 $COUNT); do
@@ -41,7 +41,7 @@ jobs:
         with:
           github_user_name: yagmurgeyikk
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#FED500&color_dots=#00235D,#FED500,#FFD700,#FFCC00,#E6B800
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#FED500&color_dots=#161b22,#FED500,#FED500,#FED500,#FED500
 
       - name: push snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
