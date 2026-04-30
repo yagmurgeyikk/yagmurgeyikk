@@ -5,8 +5,8 @@
 ---
 
 ### 💻 Üzerinde Çalıştığım Projeler
-* **C:** `Libft`, `ft_printf`, `get_next_line`
-* **Python:** `Module 0`...
+* **C:** `Libft`, `ft_printf`, `get_next_line`, `push_swap`
+* **Python:** `Module 0`,` Module 1`
 
 ---
 <p align="center">
