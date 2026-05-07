@@ -6,7 +6,7 @@
 
 ### 💻 Üzerinde Çalıştığım Projeler
 * **C:** `Libft`, `ft_printf`, `get_next_line`, `push_swap`
-* **Python:** `Module 0`,` Module 1`
+* **Python:** `Module 0`,` Module 1`,` Module 2`
 
 ---
 <p align="center">
